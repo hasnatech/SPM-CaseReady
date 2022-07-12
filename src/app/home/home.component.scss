@@ -9,6 +9,19 @@
     background-position: bottom;  
 }
 
+.ins-btn{
+    background-color: $primary;
+    color: #fff;
+    min-width: 350px;
+    min-height: 45px;
+  
+  
+  &:hover{
+    border: 3px solid $primary;
+    color: $primary;
+  }
+  
+  }
 
 // .table1{
 //     // background-color: white;

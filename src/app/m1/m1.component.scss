@@ -190,3 +190,51 @@ button:hover {
     background-image: none;
   }
 }
+
+.ins-btn{
+  background-color: $primary;
+  color: #fff;
+  min-width: 220px;
+  min-height: 60px;
+
+
+&:hover{
+  border: 3px solid $primary;
+  color: $primary;
+}
+
+}
+
+
+
+modal-header{
+  border-bottom: none !important;
+}
+
+
+.rond{
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #DAAA00;
+  opacity: 1;
+  border: 3px solid #DAAA00;
+  transition: all 0.5s ease-in-out;
+  img{
+      width: 32px;
+  }
+
+  &:hover{
+      background-color: $secondary_lite;
+  opacity: 1;
+  border: 3px solid $secondary_lite;
+  }
+}
+.rond{
+  position: relative;
+  right: -1.5rem;
+  top: -1.5rem;
+}

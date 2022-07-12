@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "git": "git add . && git commit -m 'update' && git push",
-    "predeploy": "ng build --configuration production --base-href https://hasnatech.github.io/SPM-CaseReady",
+    "predeploy": "ng build --configuration production --base-href https://hasnatech.github.io/SPM-CaseReady/",
     "deploy": "gh-pages -d dist/SPM-CaseReady",
     "upload": "ng build --configuration production --base-href ./"
   },
